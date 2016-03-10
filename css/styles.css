@@ -1,0 +1,170 @@
+
+
+
+body {
+
+	background-color: #eeeeee;
+	font-family: Helvetica, Arial, sans-serif;
+	margin:	0;
+	padding-bottom: 100px;
+}
+
+
+nav {
+
+	background-color: white;
+	border-top-color: 	#FF4700;
+	border-top-width: 	4px;
+	border-top-style: 	solid;
+}
+
+
+nav li {
+
+	list-style:	none;
+	display: inline;
+	margin-left: 20px;
+
+}
+
+nav li:first-child{	
+		margin-left:	0;
+}
+
+nav a {
+
+	color: #FF4700; /* orange Links */
+	text-decoration: 	none;
+	margin-left:	29; 
+
+}
+
+nav a:hover {
+	text-decoration: underline;
+
+}
+
+nav img {
+	vertical-align: middle;
+	margin-right: 500px;
+}
+
+#buy-now {
+	color: #ffffff;
+	padding: 4px;
+	border-radius: 3px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4700+0,dd3b00+100 */
+background: rgb(255,71,0); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,71,0,1) 0%, rgba(221,59,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,71,0,1) 0%,rgba(221,59,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,71,0,1) 0%,rgba(221,59,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4700', endColorstr='#dd3b00',GradientType=0 ); /* IE6-9 */
+}
+
+#buy-now:hover{
+	text-decoration:	none;	
+
+}
+
+nav ul{
+	padding-left: 0;
+	width:	960px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+
+main {
+	width:	960px;
+	margin: 0 auto;
+}
+
+article header ul {
+	padding-left: 0;
+	list-style: none;
+	font-size: x-small;
+
+
+}
+
+article header li{
+	display: inline;
+	margin-right: 10px;
+}
+
+article{
+	background-color: white;
+	width:	66.66%;
+	padding:	30px;
+	box-sizing:	border-box;
+	margin-top: 40px;
+	/* X axis, Y axis, blur, size, colour */
+	box-shadow:	0 13px 5px -10px rgba(0,0,0,.5);
+	
+}
+
+article header img{
+	max-width:	100%;
+}
+
+.article-content{
+	padding: 0 30px;
+
+}
+
+article h1{
+	font-family: 'Crete Round', serif;
+	font-size: xx-large;
+	font-weight: 400;
+}
+
+article h1 a{
+	color: #333333;
+	text-decoration: none;
+}
+
+article h1 a:hover {
+	colour:	#777777;
+
+}
+
+#pinned h1 a:hover {
+	color: #FF4700
+}
+
+article p {
+	color: #333333;
+}
+
+.break-out {
+		font-weight: bold;
+		color:		#222222;
+		text-decoration: none;
+		display:	inline-block;
+		margin: 15px 0;
+}
+
+article footer{
+		background-color: #fcfcfc;
+		padding: 15px 30px;
+		border-top: 1px solid #dddddd;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
